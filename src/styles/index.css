@@ -151,7 +151,7 @@ input select{
 }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 320px) {
 
   .main_wrap{
     padding: 20px;
@@ -160,7 +160,9 @@ input select{
     font-size: 18px;
     line-height: 18px;
   }
-
+  .results{
+    margin: 0px;
+  }
   .result_field{
     display: flex;
     flex-direction: column;
